@@ -11,4 +11,4 @@ const altura = 1.70;
 
 let imc = peso / (altura * altura);
 
-console.log(nome + sobrenome + "tem " + idade + " anos, pesa " + peso + "kg, tem" + altura + "de altura e seu IMC é de " + imc);
+console.log(`${nome } ${sobrenome} tem  ${idade} anos, pesa   ${peso}  kg, tem  ${altura}  de altura e seu IMC é de   ${imc}`);
