@@ -6,10 +6,17 @@
 
 // alert (`O resultado da sua conta foi: ${num1 + num2}`);
 
-let varA = 'A'; // B
-let varB = 'B'; // C
-let varC = 'C'; // A
+// let varA = 'A'; // B
+// let varB = 'B'; // C
+// let varC = 'C'; // A
 
-[varA, varB, varC] = [varB, varC, varA]
+// [varA, varB, varC] = [varB, varC, varA]
 
-console.log(varA, varB, varC);
+// console.log(varA, varB, varC);
+
+// NUMBERS
+
+let num1 = 10
+let num2 = 25.1
+
+console.log(Number.isInteger(num2))
